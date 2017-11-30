@@ -1,0 +1,32 @@
+[
+    {
+        "title": "北京佳美口腔医院（三里屯店）",
+        "select_all":false,
+        "content":[{
+            "type":"牙齿矫正",
+            "price":12000.00,
+            "checked":false,
+            "count":1
+        },{
+            "type":"洗牙",
+            "price":12000.00,
+            "checked":false,
+            "count":1
+        }]
+    },
+    {
+        "title": "英煌整形医院（三里屯店）",
+        "select_all":false,
+        "content":[{
+            "type":"瘦脸针",
+            "price":3000.00,
+            "checked":false,
+            "count":1
+        },{
+            "type":"厚唇",
+            "price":8000.00,
+            "checked":false,
+            "count":1
+        }]
+    }
+]

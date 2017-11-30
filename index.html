@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <cart-header></cart-header>
+        <section class="section">
+            <cart-wrap>
+                <cart-comp v-for="(item,index) in hospital_list" :data="item" :key="index" :index="index"></cart-comp>
+            </cart-wrap>
+        </section>
+        <cart-footer></cart-footer>
+    </div>
+    <script src="libs/fontset.js"></script>
+    <script src="libs/vue2.js"></script>
+    <script src="libs/vuex.js"></script>
+    
+    <!-- <script src="libs/axios.js"></script> -->
+    <script src="store/store.js"></script>
+    <script>
+            var {mapState,mapMutations}=Vuex
+    </script>
+    <script src="components/cart_header.js"></script>
+    <script src="components/cart_wrap.js"></script>
+    <script src="components/cart_comp.js"></script>
+    <script src="components/cart_footer.js"></script>
+    <script src="js/app.js"></script>
+    
+</body>
+
+</html>
